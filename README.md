@@ -51,11 +51,16 @@ A **TypeScript** type definitions package for configurable, composable, trait-dr
 
 ## Related packages
 
+### Peer dependencies
+
+- **[@typedly/data-traits](https://github.com/typedly/data-traits)**: A **TypeScript** type definitions for data traits.
+- **[@typedly/data](https://github.com/typedly/data)**: A **TypeScript** type definitions for [`@typescript-package/data`](https://github.com/typedly/data).
+
+### General
+
 - **[@typedly/adaptable-data](https://github.com/typedly/adaptable-data)**: A **TypeScript** type definitions for data adapter.
 - **[@typedly/collection](https://github.com/typedly/collection)**: A **TypeScript** type definitions package for data collections with customizable storage.
 - **[@typedly/data-adapter](https://github.com/typedly/data-adapter)**: A **TypeScript** type definitions for data adapter.
-- **[@typedly/data-traits](https://github.com/typedly/data-traits)**: A **TypeScript** type definitions for data traits.
-- **[@typedly/data](https://github.com/typedly/data)**: A **TypeScript** type definitions for [`@typescript-package/data`](https://github.com/typedly/data).
 - **[@typescript-package/data](https://github.com/typescript-package/data)**: A lightweight **TypeScript** library for basic data management.
 - **[@typescript-package/collection](https://github.com/typescript-package/collection)**: A lightweight **TypeScript** library for data collection.
 
