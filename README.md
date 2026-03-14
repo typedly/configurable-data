@@ -98,7 +98,7 @@ import {
 import { ConfigurableDataShape } from '@typedly/configurable-data';
 ```
 
-[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/configurable-data.shape.ts)
+[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/configurable.data.shape.ts)
 
 ### Type
 
@@ -108,7 +108,7 @@ import { ConfigurableDataShape } from '@typedly/configurable-data';
 import { InferConfigurableAsync } from '@typedly/configurable-data';
 ```
 
-[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-configurable-async.type.ts)
+[Source](https://github.com/typedly/configurable-data/blob/main/src/inference/lib/infer-configurable-async.type.ts)
 
 ### `InferConfigurableValue`
 
@@ -116,7 +116,7 @@ import { InferConfigurableAsync } from '@typedly/configurable-data';
 import { InferConfigurableValue } from '@typedly/configurable-data';
 ```
 
-[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-configurable-value.type.ts)
+[Source](https://github.com/typedly/configurable-data/blob/main/src/inference/lib/infer-configurable-value.type.ts)
 
 ## Contributing
 
