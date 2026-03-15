@@ -1,6 +1,6 @@
 {
   "name": "@typedly/configurable-data",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "author": "wwwdev.io <dev@wwwdev.io>",
   "description": "A TypeScript type definitions for configurable data.",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "peerDependencies": {
     "@typedly/data": "^6.0.0",
-    "@typedly/data-traits": "^1.1.0"
+    "@typedly/data-traits": "^2.0.0"
   },
   "scripts": {
     "prepublishOnly": "npm install rimraf && npm run pkg && npm run clean",
