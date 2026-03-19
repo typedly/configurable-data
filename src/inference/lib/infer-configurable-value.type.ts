@@ -3,6 +3,7 @@ import type { DataShape } from "@typedly/data";
 import type { ConfigurableDataShape } from "../../lib";
 /**
  * @deprecated This utility is redundant and should not be used. In favor of just using `InferValue` from `@typedly/data`.
+ * @see InferValue from `@typedly/data` for a more robust and comprehensive type inference utility.
  * @description Infers the value type from configurable, and data shape interface.
  * @export
  * @template I The data shape type.
