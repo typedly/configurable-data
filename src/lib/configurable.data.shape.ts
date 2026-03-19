@@ -1,8 +1,8 @@
-// Type.
-import type { InferConfigurableAsync } from "../inference/lib/infer-configurable-async.type";
 // Interface.
 import type { Configurable } from "@typedly/data-traits";
-import type { DataConfig, DataSettings, DataShape } from "@typedly/data";
+import type { DataSettings, DataShape, InferAsync } from "@typedly/data";
+// Type.
+import type { DataConfig } from "@typedly/data";
 /**
  * @description The shape of a data type with configuration.
  * @export
@@ -16,5 +16,5 @@ import type { DataConfig, DataSettings, DataShape } from "@typedly/data";
 export interface ConfigurableDataShape<
   C extends DataSettings<R> | undefined,
   T = any,
-  R extends boolean = InferConfigurableAsync<C>
+  R extends boolean = InferAsync<C>
 > extends DataShape<T, R>, Configurable<DataConfig<C, R>> {}
