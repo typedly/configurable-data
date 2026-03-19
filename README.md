@@ -39,6 +39,8 @@ A **TypeScript** type definitions package for configurable, composable, trait-dr
     - [`ConfigurableDataShape`](#configurabledatashape)
   - Type
     - [`InferSettings`](#infersettings)
+    - [`InferConfigurableAsync`](#inferconfigurableasync)
+    - [`InferConfigurableValue`](#inferconfigurablevalue)
 - [Contributing](#contributing)
 - [Support](#support)
 - [Code of Conduct](#code-of-conduct)
@@ -84,6 +86,8 @@ import {
   // Configurable data
   ConfigurableDataShape,
   // Inference
+  InferConfigurableAsync, // deprecated
+  InferConfigurableValue, // deprecated
   InferSettings,
 } from '@typedly/configurable-data';
 ```
@@ -102,15 +106,27 @@ import { ConfigurableDataShape } from '@typedly/configurable-data';
 
 ### Type
 
-### `InferSettings`
+### `InferConfigurableAsync`
 
-Infers the settings type from a configurable data shape.
+Infers the async flag from the configuration or adapter.
+
+`InferConfigurableAsync` can be replaced with the more general `InferAsync` utility, since `ConfigurableDataShape` will be matched by `DataShape` in a conditional type.
 
 ```typescript
-import { InferSettings } from '@typedly/configurable-data';
+import { InferConfigurableAsync } from '@typedly/configurable-data';
 ```
 
-[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-settings.type.ts)
+[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-configurable-async.type.ts)
+
+### `InferConfigurableValue`
+
+Infers the value type from configurable, and data shape interface. `InferValue`, also works with `ConfigurableDataShape` due to inheritance.
+
+```typescript
+import { InferConfigurableValue } from '@typedly/configurable-data';
+```
+
+[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-configurable-value.type.ts)
 
 ## Contributing
 
