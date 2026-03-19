@@ -1,5 +1,5 @@
 // Interface.
-import { ConfigurableDataShape } from "./configurable.data.shape";
+import { ConfigurableDataShape } from "../../lib";
 /**
  * @description Infers the settings type from a configurable data shape.
  * @export
