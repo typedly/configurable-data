@@ -116,7 +116,7 @@ Infers the async flag from the configuration or adapter.
 import { InferConfigurableAsync } from '@typedly/configurable-data';
 ```
 
-[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-configurable-async.type.ts)
+[Source](https://github.com/typedly/configurable-data/blob/main/src/inference/lib/infer-configurable-async.type.ts)
 
 ### `InferConfigurableValue`
 
@@ -126,7 +126,17 @@ Infers the value type from configurable, and data shape interface. `InferValue`,
 import { InferConfigurableValue } from '@typedly/configurable-data';
 ```
 
-[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/infer-configurable-value.type.ts)
+[Source](https://github.com/typedly/configurable-data/blob/main/src/inference/lib/infer-configurable-value.type.ts)
+
+### `InferSettings`
+
+Infers the settings type from a configurable data shape.
+
+```typescript
+import { InferSettings } from '@typedly/configurable-data';
+```
+
+[Source](https://github.com/typedly/configurable-data/blob/main/src/inference/lib/infer-settings.type.ts)
 
 ## Contributing
 
