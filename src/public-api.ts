@@ -7,5 +7,6 @@ export type {
   InferSettings,
 } from './inference';
 export type {
+  ConfigurableDataConstructor,
   ConfigurableDataShape,
 } from './lib';

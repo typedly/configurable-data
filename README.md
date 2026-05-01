@@ -36,6 +36,7 @@ A **TypeScript** type definitions package for configurable, composable, trait-dr
 - [Installation](#installation)
 - [Api](#api)
   - Interface
+    - [`ConfigurableDataConstructor`](#configurabledataconstructor)
     - [`ConfigurableDataShape`](#configurabledatashape)
   - Type
     - [`InferSettings`](#infersettings)
@@ -84,6 +85,7 @@ npm install @typedly/configurable-data --save-peer
 ```typescript
 import {
   // Configurable data
+  ConfigurableDataConstructor,
   ConfigurableDataShape,
   // Inference
   InferConfigurableAsync, // deprecated
@@ -93,6 +95,16 @@ import {
 ```
 
 ### Interface
+
+### `ConfigurableDataConstructor`
+
+Represents the constructor type for a configurable data shape.
+
+```typescript
+import { ConfigurableDataConstructor } from '@typedly/configurable-data';
+```
+
+[Source](https://github.com/typedly/configurable-data/blob/main/src/lib/configurable.data.constructor.ts)
 
 ### `ConfigurableDataShape`
 
